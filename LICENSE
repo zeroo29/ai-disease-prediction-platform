@@ -1,7 +1,17 @@
-MIT License
+Copyright (c) 2026 Chy. Mohammad Efaz Khaleque
 
-Copyright (c) 2026 MedPredict AI contributors
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to inclusion of this notice.
+This software and its source code are proprietary and confidential to the copyright holder.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
+Permission is NOT granted to copy, reproduce, modify, merge, publish, distribute, sublicense, sell, or create derivative works from this software or any portion of it without prior written permission from the copyright holder.
+
+The source code is publicly available for viewing and educational reference only. Public availability of this repository does not grant any license or other rights to use, reproduce, modify, distribute, or commercially exploit the software.
+
+Unauthorized copying, reproduction, redistribution, modification, or commercial use of this software is prohibited.
+
+Third-party libraries, frameworks, dependencies, datasets, models, and other components remain subject to their respective licenses and terms.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+For licensing inquiries or permission to use this software, please contact the copyright holder.
