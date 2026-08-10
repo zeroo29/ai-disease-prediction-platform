@@ -41,3 +41,5 @@ ml/models/*.pkl
 # ML datasets
 ml/data/*
 !ml/data/README.md
+# Next.js generated TypeScript file
+next-env.d.ts
