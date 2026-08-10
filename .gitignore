@@ -9,3 +9,5 @@ ml/data/*
 !ml/data/README.md
 ml/models/*.joblib
 ml/models/*.pkl
+
+tsconfig.tsbuildinfo
