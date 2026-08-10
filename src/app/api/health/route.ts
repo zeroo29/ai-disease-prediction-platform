@@ -1,0 +1,1 @@
+import { db } from "@/db";import { sql } from "drizzle-orm";export const dynamic="force-dynamic";export async function GET(){try{await db.execute(sql`select 1`);return Response.json({status:"healthy",database:"connected",ml_engine:"ready",demo_mode:true});}catch{return Response.json({status:"degraded",database:"disconnected",ml_engine:"ready"},{status:503});}}

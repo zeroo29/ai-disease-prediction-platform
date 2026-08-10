@@ -1,0 +1,9 @@
+{
+  "alzheimer_risk_demo": {
+    "name": "Alzheimer’s Risk Research Model",
+    "version": "demo-1.0.0",
+    "status": "available",
+    "clinical_validity": false,
+    "adapter": "src/lib/ml.ts"
+  }
+}

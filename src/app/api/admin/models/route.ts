@@ -1,0 +1,1 @@
+import { currentSession,unauthorized,forbidden } from "@/lib/auth";import { ok } from "@/lib/api";import { MODEL,featureDefinitions } from "@/lib/ml";export async function GET(){const s=await currentSession();if(!s)return unauthorized();if(s.role!=="admin")return forbidden();return ok([{...MODEL,features:featureDefinitions}]);}

@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { PredictionDetail } from "@/components/prediction-detail";export default async function Page({params}:{params:Promise<{id:string}>}){const{id}=await params;return <AppShell title="Prediction details" subtitle="A reproducible record of model inputs, version, output, and explanation."><PredictionDetail id={id}/></AppShell>}

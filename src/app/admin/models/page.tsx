@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { AdminView } from "@/components/admin-view";export default function Page(){return <AppShell title="Model registry" subtitle="Review registered versions, checksums, and operational status."><AdminView tab="models"/></AppShell>}

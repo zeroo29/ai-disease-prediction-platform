@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { AdminView } from "@/components/admin-view";export default function Page(){return <AppShell title="Administration" subtitle="System analytics, model governance, and privacy-minimized operations."><AdminView/></AppShell>}

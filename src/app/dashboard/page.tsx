@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { DashboardView } from "@/components/dashboard-view";export const metadata={title:"Dashboard"};export default function Page(){return <AppShell title="Research dashboard" subtitle="Your activity and model analytics, generated from saved predictions."><DashboardView/></AppShell>}

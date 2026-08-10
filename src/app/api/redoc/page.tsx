@@ -1,0 +1,1 @@
+import { ApiReference } from "@/components/api-reference";export const metadata={title:"API ReDoc"};export default function Page(){return <ApiReference/>}

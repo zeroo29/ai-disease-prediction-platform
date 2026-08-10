@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.local
+*.log
+coverage/
+.DS_Store
+ml/data/*
+!ml/data/README.md
+ml/models/*.joblib
+ml/models/*.pkl

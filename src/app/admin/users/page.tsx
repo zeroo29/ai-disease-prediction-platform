@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { AdminView } from "@/components/admin-view";export default function Page(){return <AppShell title="User management" subtitle="Manage account access without viewing private health inputs."><AdminView tab="users"/></AppShell>}

@@ -1,0 +1,2 @@
+import { currentSession, unauthorized } from "@/lib/auth"; import { getActiveUser } from "@/lib/queries"; import { ok } from "@/lib/api";
+export async function GET(){const session=await currentSession();if(!session)return unauthorized();const user=await getActiveUser(session.userId);if(!user)return unauthorized();return ok({id:user.id,fullName:user.fullName,email:user.email,role:user.role,createdAt:user.createdAt});}

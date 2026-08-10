@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { AdminView } from "@/components/admin-view";export default function Page(){return <AppShell title="Platform analytics" subtitle="Aggregate database-derived system and model activity."><AdminView tab="analytics"/></AppShell>}

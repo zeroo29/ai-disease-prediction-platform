@@ -1,0 +1,1 @@
+import { ok } from "@/lib/api";import { MODEL,featureDefinitions } from "@/lib/ml";export async function GET(){return ok([{...MODEL,features:featureDefinitions}],"Available models loaded");}

@@ -1,0 +1,1 @@
+import { currentSession,setSession,unauthorized } from "@/lib/auth";import { ok } from "@/lib/api";export async function POST(){const session=await currentSession();if(!session)return unauthorized();await setSession(session);return ok(null,"Session refreshed");}

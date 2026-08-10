@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { HistoryView } from "@/components/history-view";export const metadata={title:"Prediction history"};export default function Page(){return <AppShell title="Prediction history" subtitle="Review and manage your private, versioned research analyses."><HistoryView/></AppShell>}

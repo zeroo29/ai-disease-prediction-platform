@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell";import { AdminView } from "@/components/admin-view";export default function Page(){return <AppShell title="Prediction operations" subtitle="Audit prediction metadata without exposing submitted feature values."><AdminView tab="predictions"/></AppShell>}
